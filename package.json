@@ -1,0 +1,33 @@
+{
+  "name": "ties.network-ico-backend",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/suicideventures/ties.network-ico-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/suicideventures/ties.network-ico-backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.100.0",
+    "bitcoin-core": "^1.2.0",
+    "bitcoind-rpc": "^0.7.0",
+    "blockchain.info": "^2.8.1",
+    "dynamodb-doc": "^1.0.0",
+    "ethjs-provider-signer": "^0.1.4",
+    "ethjs-signer": "^0.1.1",
+    "glob": "^7.1.2",
+    "insight-api-client": "^0.0.2",
+    "lodash": "^4.17.4",
+    "node-fetch": "next",
+    "socket.io-client": "^2.0.3",
+    "truffle-contract": "^2.0.5",
+    "wallet-address-validator": "^0.1.0",
+    "web3": "0.20.0"
+  }
+}
